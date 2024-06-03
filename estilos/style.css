@@ -1,0 +1,205 @@
+*{
+    box-sizing: border-box;
+}
+
+body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+    background-color: #000;
+    color: #fff;
+    overflow: hidden;
+}
+
+header {
+    display: flex;
+    flex-wrap: wrap;
+    padding: 10px 20px;
+    background-color: #1e1515;
+    font-weight: bold;
+    width: 100%;
+}
+
+.background{
+    background-image: url(../img/background1.jpeg);
+    background-size: cover;
+    background-position: center;
+    width: 100%;
+    height: 90vh;
+}
+
+/* Estilo do logo da página */
+.logo {
+    font-size: 24px;
+    font-weight: bold;
+    margin-right: 30%;
+    padding: 8px;
+}
+
+.textLogo{
+    color: #f9004d;
+}
+
+/* Estilização do menu de navegação */
+nav {
+    display: flex;
+    flex-wrap: wrap;
+    flex-grow: 1;
+}
+
+nav a {
+    color: #fff;
+    text-decoration: none;
+    padding: 10px;
+}
+
+nav a:hover {
+    background-color: #841818;
+    border-radius: 10px;
+}
+
+.left-nav{
+    display: flex;
+    justify-content: space-between;
+    flex-grow: 1;
+}
+
+.contato-button{
+    margin-right: 5px;
+    padding: 10px 20px;
+    background-color: #1ab32c;
+    border-radius: 10px;
+    border: none;
+}
+
+/*
+estilização do conteúdo principal da página index
+Esse estilo se replica em outras páginas
+*/
+main {
+    text-align: left;
+    padding: 150px 35px;
+    align-items: center;
+    line-height: 20px; 
+}
+
+.name{
+    color: #f9004d; 
+}
+
+/*
+Estilização do rodapé da páginas
+Esse estilo se aplica a todas as páginas
+*/
+footer {
+    position: fixed;
+    bottom: 0%;
+    width: 100%;
+    padding: 15px;
+    background-color: #1e1515;
+}
+
+.rodape{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+footer a {
+    color: #fff;
+    text-decoration: none;
+    padding: 10px;
+    
+}
+footer a:hover {
+    text-decoration: none;
+    background-color: #841818;
+    border-radius: 10px;
+}
+
+/* Estilização da página de formação */
+.formacao{
+    text-align: center;
+    justify-content: center;
+    padding: 50px 35px;
+    align-items: center;
+    line-height: 20px; 
+}
+
+.titulo{
+    line-height: 5px;
+    font-size: 17px;  
+}
+.titulo1{
+    font-size: 25px;  
+}
+
+.info1{
+    padding: 60px;
+    line-height: 27px;
+    font-size: 20px;
+}
+
+/* Estilização da página de portfolio*/
+.info2{
+    padding: 150px;
+    line-height: 27px;
+    font-size: 20px; 
+}
+
+/* Estilização da página sobre */
+.sobreMim{
+    text-align: left;
+    justify-content: center;
+    padding: 50px 35px;
+    align-items: center;
+    line-height: 20px; 
+}
+
+/* Estilização da página de contato */
+#contato1{
+    padding: 10px;
+}
+
+#contato2{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+/* Estilos do formulário de contato */
+.contato-form {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    margin-top: 50px;
+}
+
+.contato-form label {
+    margin-bottom: 5px;
+}
+
+.contato-form input, .contato-form textarea {
+    margin-bottom: 15px;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    width: 50%;
+}
+
+.contato-form button {
+    padding: 10px 20px;
+    border: none;
+    border-radius: 4px;
+    background-color: #007bff;
+    color: #fff;
+    cursor: pointer;
+    width: 20%;
+}
+
+.contato-form button:hover {
+    background-color: #0056b3;
+}
+
+.contato-form input::placeholder, .contato-form textarea::placeholder {
+    color: #888; /* Cor do texto placeholder */
+}
